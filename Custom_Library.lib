@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 4Pin_Header
+#
+DEF 4Pin_Header U 0 40 Y N 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "4Pin_Header" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -50 150 -550 0 1 0 N
+X GND 1 0 -150 100 R 50 50 1 1 I
+X 5V 2 0 -250 100 R 50 50 1 1 I
+X TX 3 0 -350 100 R 50 50 1 1 I
+X RX 4 0 -450 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
